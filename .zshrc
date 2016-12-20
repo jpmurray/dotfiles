@@ -37,3 +37,6 @@ export LANG=en_CA.UTF-8
 autoload -U promptinit; promptinit
 PURE_PROMPT_SYMBOL=λ
 prompt pure
+
+# they asked that this line is at the very end
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

@@ -33,7 +33,8 @@ brew 'wget'
 # Development
 brew 'php71', args: ['with-debug']
 brew 'mariadb'
-brew 'redis'  
+brew 'redis'
+brew 'zsh-syntax-highlighting'  
 
 # Apps
 cask 'avira-antivirus'
