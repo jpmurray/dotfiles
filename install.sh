@@ -28,7 +28,7 @@ mv composer.phar /usr/local/bin/composer
 /usr/local/bin/composer global require "hirak/prestissimo:^0.3"
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel/lumen-installer laravel/valet
+/usr/local/bin/composer global require laravel/installer laravel/lumen-installer laravel/valet phpunit/phpunit
 
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
