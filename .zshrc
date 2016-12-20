@@ -32,3 +32,8 @@ export LANG=en_CA.UTF-8
 # else
 #   export EDITOR=‘nano’
 # fi
+
+# lambda pure
+autoload -U promptinit; promptinit
+PURE_PROMPT_SYMBOL=λ
+prompt pure

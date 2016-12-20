@@ -38,6 +38,13 @@ mkdir $HOME/Repositories
 cd $HOME/Repositories
 valet park 
 
+# Configure zsh to my liking
+## Install pure
+cd $HOME/.dotfiles/pure
+ln -s "$PWD/pure.zsh" /usr/local/share/zsh/site-functions/prompt_pure_setup
+ln -s "$PWD/async.zsh" /usr/local/share/zsh/site-functions/async
+
+
 # Set macOS preferences
 # We will run this last because this will reload the shell
 cd $HOME/.dotfiles
