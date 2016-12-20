@@ -24,6 +24,9 @@ chsh -s $(which zsh)
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 
+# Install Prestissimo, it just make things faster for composer!
+/usr/local/bin/composer global require "hirak/prestissimo:^0.3"
+
 # Install global Composer packages
 /usr/local/bin/composer global require laravel/installer laravel/lumen-installer laravel/valet
 
