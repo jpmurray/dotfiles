@@ -35,6 +35,7 @@ brew 'php71', args: ['with-debug']
 brew 'mariadb'
 brew 'redis'
 brew 'zsh-syntax-highlighting'  
+brew 'yarn'
 
 # Apps
 cask 'avira-antivirus'
@@ -71,6 +72,7 @@ cask 'font-meslo-lg-for-powerline'
 cask 'font-source-code-pro-for-powerline'
 cask 'font-fira-mono-for-powerline'
 cask 'font-awesome-terminal-fonts'
+cask 'font-fira-code'
 
 # Install Mac App Store apps
 mas 'Twitter', id: 409789998  
