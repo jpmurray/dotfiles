@@ -66,6 +66,10 @@ cask 'qlstephen'
 # Fonts
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
+cask 'font-meslo-lg-for-powerline'
+cask 'font-source-code-pro-for-powerline'
+cask 'font-fira-mono-for-powerline'
+cask 'font-awesome-terminal-fonts'
 
 # Install Mac App Store apps
 mas 'Twitter', id: 409789998  
