@@ -12,6 +12,7 @@ alias repo="cd $HOME/Repositories"
 
 # Laravel
 alias artisan="php artisan"
+alias laracc='php artisan cache:clear'
 
 # Composer
 # Commented out, since it’s in the path
