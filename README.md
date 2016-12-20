@@ -27,12 +27,13 @@
 
 ## Step 3 - Something's missing?
 
-- Change Spotlight preferences;
-- Change Notifications preferences;
+- Check the trackpad preferences to see if it's to our taste;
+- Check Spotlight preferences;
+- Check Notifications preferences;
+- Check Finder preferene;
 - Remove Airplay mirroring icon from taskbar in Display preferences;
 - Prevent computer from sleeping automatically when display is off in Energy Saver;
 - Disable Power Nap if it's on;
-- Check the trackpad preferences to see if it's to our taste;
 
 ## Step 4 - One more time, we're gonna celebrate
 
