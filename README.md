@@ -27,6 +27,9 @@
 
 ## Step 3 - Something's missing?
 
+- Go to the `$dotfiles/iterm2-snazzy` and double click the `Snazzy.itermcolors` file to import it;
+- Select the snazzy theme by going to iterm preferences > profile > and selecting it in the preset;
+- While you're at it, set the font to Menolo 15pt
 - Check the trackpad preferences to see if it's to our taste;
 - Check Spotlight preferences;
 - Check Notifications preferences;
