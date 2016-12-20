@@ -16,8 +16,5 @@ export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 # Disabled this because I have no custom binaries at the moment.
 export PATH="$DOTFILES/bin:$PATH"
 
-# Load composer
-export PATH="$PATH:$HOME/.composer/vendor/bin"
-
 # Local bin directories before anything else
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
