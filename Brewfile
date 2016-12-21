@@ -36,6 +36,7 @@ brew 'mariadb'
 brew 'redis'
 brew 'zsh-syntax-highlighting'  
 brew 'yarn'
+brew 'tidy-html5'
 
 # Apps
 cask 'avira-antivirus'

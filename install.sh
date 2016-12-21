@@ -30,6 +30,12 @@ mv composer.phar /usr/local/bin/composer
 # Install global Composer packages
 /usr/local/bin/composer global require laravel/installer laravel/lumen-installer laravel/valet phpunit/phpunit squizlabs/php_codesniffer friendsofphp/php-cs-fixer phpmd/phpmd
 
+# Install some node global packages
+npm install -g jshint
+npm install -g csslint
+npm install -g sass-lint
+npm install -g lesshint
+
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
 
