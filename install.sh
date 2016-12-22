@@ -17,6 +17,9 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
+# Maria DB is installed, but we still need to get it to run at boot
+brew services start mariadb
+
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
 
