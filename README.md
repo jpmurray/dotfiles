@@ -11,6 +11,7 @@
 
 - Copy public and private SSH keys to `~/.ssh` and make sure they're set to `600`;
 - Clone the repo to `~/.dotfiles`;
+- `git submodule init && git submodule update`
 - Append `/usr/local/bin/zsh` to the end of your `/etc/shells` file;
 - Run `install.sh` to start the installation;
 - Make sure Dropbox is set up and synced;
