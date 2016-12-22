@@ -23,6 +23,9 @@ brew services start mariadb
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
 
+# Remove last login in terminal
+touch .hushlogin
+
 # Install Composer
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
