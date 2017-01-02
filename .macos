@@ -375,10 +375,16 @@ defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool t
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
 ###############################################################################
+# Redis                                                                       #
+###############################################################################
+
+ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
+
+###############################################################################
 # System                                                                      #
 ###############################################################################
 
-# Re-enable open stuff from anywhere
+# Re-enable open stuff from anywhere (a.k.a  I know I can trust what I download, thank you very much)
 sudo spctl --master-disable 
 
 
