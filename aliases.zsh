@@ -8,6 +8,7 @@ alias repo="cd $HOME/Repositories"
 # Laravel
 alias art="php artisan"
 alias artcc='php artisan cache:clear'
+alias fresh="php artisan migrate:fresh --seed"
 
 # Others
 alias "opn"="subl ."
