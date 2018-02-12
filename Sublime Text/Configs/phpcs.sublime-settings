@@ -1,0 +1,10 @@
+{
+    "phpcbf_on_save": true,
+    "phpcs_icon_scope_color": "string",
+    "phpcs_show_errors_on_save": false,
+    "phpcs_executable_path": "/Users/jpmurray/.composer/vendor/bin/phpcs",
+    "php_cs_fixer_executable_path": "/Users/jpmurray/.composer/vendor/bin/php-cs-fixer",
+    "phpcbf_executable_path": "/Users/jpmurray/.composer/vendor/bin/phpcbf",
+    "phpmd_executable_path": "/Users/jpmurray/.composer/vendor/bin/phpmd",
+    "extensions_to_blacklist": ["blade.php"]
+}

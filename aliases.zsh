@@ -6,5 +6,8 @@ alias ll="$(brew --prefix coreutils)/libexec/gnubin/ls -ahlF --color --group-dir
 alias repo="cd $HOME/Repositories"
 
 # Laravel
-alias artisan="php artisan"
-alias laracc='php artisan cache:clear'
+alias art="php artisan"
+alias artcc='php artisan cache:clear'
+
+# Others
+alias "opn"="subl ."
