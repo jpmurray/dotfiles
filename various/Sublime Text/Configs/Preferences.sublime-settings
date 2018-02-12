@@ -1,5 +1,6 @@
 {
 	"always_show_minimap_viewport": true,
+	"fade_fold_buttons": false,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"font_face": "Fira Mono For Powerline",
