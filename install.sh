@@ -60,3 +60,4 @@ ln -s "$PWD/async.zsh" /usr/local/share/zsh/site-functions/async
 # Set macOS preferences
 # We will run this last because this will reload the shell
 cd $HOME/.dotfiles
+source .macos
