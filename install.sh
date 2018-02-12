@@ -18,7 +18,7 @@ brew tap homebrew/bundle
 brew bundle
 
 # Maria DB is installed, but we still need to get it to run at boot
-brew services start mariadb
+brew services start mysql
 
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
@@ -31,16 +31,13 @@ curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 
 # Install Prestissimo, it just make things faster for composer!
-/usr/local/bin/composer global require "hirak/prestissimo:^0.3"
+/usr/local/bin/composer global require "hirak/prestissimo"
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel/lumen-installer laravel/valet phpunit/phpunit squizlabs/php_codesniffer friendsofphp/php-cs-fixer phpmd/phpmd
+/usr/local/bin/composer global require laravel/installer laravel/valet phpunit/phpunit squizlabs/php_codesniffer friendsofphp/php-cs-fixer phpmd/phpmd
 
 # Install some node global packages
-npm install -g jshint
-npm install -g csslint
-npm install -g sass-lint
-npm install -g lesshint
+yarn global add jshint csslint sass-lint lesshint
 
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
@@ -63,4 +60,3 @@ ln -s "$PWD/async.zsh" /usr/local/share/zsh/site-functions/async
 # Set macOS preferences
 # We will run this last because this will reload the shell
 cd $HOME/.dotfiles
-source .macos

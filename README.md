@@ -14,7 +14,6 @@
 - `git submodule init && git submodule update`
 - Append `/usr/local/bin/zsh` to the end of your `/etc/shells` file;
 - Run `install.sh` to start the installation;
-- Make sure Dropbox is set up and synced;
 - Configure keybase
 - Install other App I can't install automatically because of reasons:
 	- 1Password (Using an old version)
