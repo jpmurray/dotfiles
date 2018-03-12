@@ -43,16 +43,8 @@ cask 'slack'
 cask 'sublime-text'
 
 # Quicklook
-cask 'qlcolorcode'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'quicklook-csv'
-cask 'qlstephen'
-
-# Fonts
-cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-code-pro-for-powerline'
-cask 'font-fira-mono-for-powerline'
-cask 'font-awesome-terminal-fonts'
-cask 'font-fira-code'
+# cask 'qlcolorcode'
+# cask 'qlmarkdown'
+# cask 'quicklook-json'
+# cask 'quicklook-csv'
+# cask 'qlstephen'
