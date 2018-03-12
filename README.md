@@ -16,12 +16,8 @@
 - Run `install.sh` to start the installation;
 - Configure keybase
 - Install other App I can't install automatically because of reasons:
-	- 1Password (Using an old version)
 	- Adobe (Too big)
 	- Antidote (Using an old version)
-	- Office (Do I really want it?)
-	- PHP Storm (Do I really want it?)
-	- Gitkraken (Fail to install automatically)
 - Restore preferences by running `mackup restore`;
 - Restart computer;
 

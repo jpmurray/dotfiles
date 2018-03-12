@@ -21,6 +21,7 @@ brew 'node'
 brew 'wget'
 
 # Development
+brew 'mackup'
 brew 'php72', args: ['with-debug', 'with-argon']
 brew 'mysql'
 brew 'redis'
@@ -28,9 +29,11 @@ brew 'zsh-syntax-highlighting'
 brew 'yarn'
 
 # Apps
+cask '1password'
 cask 'appcleaner'
 cask 'dropbox'
 cask 'iterm2'
+cask 'gitkraken'
 cask 'google-chrome'
 cask 'insomnia'
 cask 'keybase'
