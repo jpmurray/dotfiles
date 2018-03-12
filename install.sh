@@ -2,6 +2,9 @@
 
 echo "Setting up your Mac..."
 
+# Enable installation from anywhere again
+sudo spctl --master-disable 
+
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
