@@ -5,7 +5,7 @@ export PATH="$HOME/.node/bin:$PATH"
 export PATH="node_modules/.bin:vendor/bin:$PATH"
 
 # Make sure PHP 7.1 is loaded
-export PATH="$(brew --prefix homebrew/php/php72)/bin:$PATH"
+export PATH="$(brew --prefix php)/bin:$PATH"
 
 # Make sure coreutils are loaded before system commands
 # I've disabled this for now because I only use "ls" which is
