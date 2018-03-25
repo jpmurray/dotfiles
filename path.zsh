@@ -4,7 +4,7 @@ export PATH="$HOME/.node/bin:$PATH"
 # Use project specific binaries before global ones
 export PATH="node_modules/.bin:vendor/bin:$PATH"
 
-# Make sure PHP 7.1 is loaded
+# Make sure PHP is loaded
 export PATH="$(brew --prefix php)/bin:$PATH"
 
 # Make sure coreutils are loaded before system commands
