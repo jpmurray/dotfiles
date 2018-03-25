@@ -5,9 +5,6 @@ echo "Setting up your Mac..."
 # Enable installation from anywhere again
 sudo spctl --master-disable 
 
-# Install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -22,6 +19,9 @@ brew bundle
 
 # Maria DB is installed, but we still need to get it to run at boot
 brew services start mysql
+
+# Install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
