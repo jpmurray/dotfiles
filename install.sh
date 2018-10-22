@@ -37,7 +37,7 @@ mv composer.phar /usr/local/bin/composer
 /usr/local/bin/composer global require "hirak/prestissimo"
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel/valet phpunit/phpunit squizlabs/php_codesniffer friendsofphp/php-cs-fixer phpmd/phpmd
+/usr/local/bin/composer global require laravel/installer laravel-zero/installer laravel/lumen-installer laravel/valet phpunit/phpunit squizlabs/php_codesniffer friendsofphp/php-cs-fixer phpmd/phpmd localheinz/composer-normalize
 
 # Install some node global packages
 yarn global add jshint csslint sass-lint lesshint
