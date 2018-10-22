@@ -64,8 +64,4 @@ reload
 
 # 4. Restore preferences
 mackup restore
-``
-
-
-
-
+```
