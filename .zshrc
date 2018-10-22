@@ -17,7 +17,7 @@ ZSH_CUSTOM=$DOTFILES
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(composer sublime yarn)
+plugins=(composer sublime yarn git git-extras github npm laravel5)
 
 # Activate Oh-My-Zsh
 source $ZSH/oh-my-zsh.sh
