@@ -51,3 +51,18 @@ cask 'steam'
 cask 'sublime-text'
 cask 'the-unarchiver'
 cask 'vlc'
+
+# Quicklook
+cask 'betterzip'        # preview zip archives
+cask 'epubquicklook'    # preview zip archives
+cask 'qlcolorcode'      # preview source code files with syntax highlighting
+cask 'qlimagesize'      # display image size and resolution
+cask 'qlmarkdown'       # preview Markdown files
+cask 'qlprettypatch'    # preview diff patches
+cask 'quicklook-json'   # preview JSON files
+cask 'quicklook-csv'    # preview CSV files
+cask 'qlstephen'        # preview plain text files without or with unknown file extension
+cask 'webpquicklook'    # preview Webp images
+
+# Fonts
+cask 'font-fira-code'

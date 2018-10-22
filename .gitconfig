@@ -1,3 +1,9 @@
 [user]
-	email = jeanphilippe@pasunecompagnie.com
+	email = jp@utvarp.co
 	name = Jean-Philippe Murray
+
+[core]
+    # Use custom `.gitignore` and `.gitattributes`
+    excludesfile = ~/.gitignore
+    attributesfile = ~/.gitattributes
+    editor = nano
