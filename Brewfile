@@ -2,7 +2,6 @@
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
 tap 'homebrew/bundle'
-tap 'homebrew/php'
 
 # Install ZSH
 brew 'zsh'
