@@ -16,16 +16,16 @@
 - Run `install.sh` to start the installation;
 - Configure keybase
 - Install other App I can't install automatically because of reasons:
+	- Little Snitch
 	- Adobe (Too big)
-	- Antidote (Using an old version)
+	- Antidote (Using an old version)	
+	- Office
+	- Tunnel Brick
 - Restore preferences by running `mackup restore`;
 - Restart computer;
 
 ## Step 3 - Something's missing?
 
-- Go to the `$dotfiles/iterm2-snazzy` and double click the `Snazzy.itermcolors` file to import it;
-- Select the snazzy theme by going to iterm preferences > profile > and selecting it in the preset;
-- While you're at it, set the font to Menolo 15pt
 - Check the trackpad preferences to see if it's to our taste;
 - Check Spotlight preferences;
 - Check Notifications preferences;

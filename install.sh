@@ -3,7 +3,7 @@
 echo "Setting up your Mac..."
 
 # Enable installation from anywhere again
-sudo spctl --master-disable 
+sudo spctl --master-disable
 
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
@@ -17,7 +17,7 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
-# Maria DB is installed, but we still need to get it to run at boot
+# Myqsl DB is installed, but we still need to get it to run at boot
 brew services start mysql
 
 # Install oh-my-zsh
