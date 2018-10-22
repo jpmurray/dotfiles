@@ -1,2 +1,30 @@
-# Save screenshots to the desktop
-defaults write com.apple.screencapture location -string "${HOME}/Screenshots"
+# Ask for the administrator password upfront.
+sudo -v
+
+# Set computer name (as done via System Preferences -> Sharing).
+sudo scutil --set ComputerName "jpmMbp"
+sudo scutil --set HostName "jpmMbp"
+sudo scutil --set LocalHostName "jpmMbp"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "jpmMbp"
+
+# Save screenshots to the download directory
+defaults write com.apple.screencapture location -string "${HOME}/Downloads"
+
+# Add login screen message.
+sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "Vous avez trouvé ce portable? Merci de contacter Jean-Philippe à l'adresse curieuxmurray@gmail.com"
+
+# Menu bar: Always show percentage next to the Battery icon
+defaults write com.apple.menuextra.battery ShowPercent YES
+
+# Disable auto-correct
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+
+# Minimize windows into application icon.
+defaults write com.apple.dock minimize-to-application -bool true
+
+# Keep folders on top when sorting by name.
+defaults write com.apple.finder _FXSortFoldersFirst -bool true
+
+# Turn of Siri and hide it in the menu bar.
+defaults write com.apple.siri StatusMenuVisible -bool false
+defaults write com.apple.siri UserHasDeclinedEnable -bool true
