@@ -20,7 +20,7 @@ Go through the checklist below to make sure you didn't forget anything before yo
 ### Step 2 - Restore my shiet
 
 - Copy public and private SSH keys to `~/.ssh` and make sure they're set to `600`;
-- Clone the repo to `~/.dotfiles`;
+- Clone the repo to `~/.dotfiles`: `git clone git@github.com:jpmurray/dotfiles.git ~/.dotfiles`;
 - `git submodule init && git submodule update`
 - Append `/usr/local/bin/zsh` to the end of your `/etc/shells` file;
 - Run `install.sh` to start the installation;
