@@ -22,7 +22,7 @@ brew 'wget'
 
 # Development
 brew 'mackup'
-brew 'php72', args: ['with-debug', 'with-argon']
+brew 'php72', args: ['with-argon', 'with-openssl']
 brew 'mysql'
 brew 'redis'
 brew 'zsh-syntax-highlighting'  
