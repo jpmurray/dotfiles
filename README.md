@@ -2,7 +2,7 @@
 
 ## Step 1 - Hello world
 
-- Have a new Mac;
+- Have a new Mac or a clean install;
 - Make the base setup for accounts;
 - Make all the updates;
 - Turn on disk encryption;
