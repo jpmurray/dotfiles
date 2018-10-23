@@ -33,6 +33,7 @@ Go through the checklist below to make sure you didn't forget anything before yo
 	- Antidote (Using an old version)	
 	- Office
 	- Tunnel Brick
+	- Hyper (cask is broken I think)
 - Restart computer: `shutdown -r now`;
 
 ### Step 3 - Something's missing?
