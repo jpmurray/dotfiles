@@ -4,6 +4,7 @@ alias reloadcli="source $HOME/.zshrc"
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 alias ll="$(brew --prefix coreutils)/libexec/gnubin/ls -ahlF --color --group-directories-first"
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
+alias c="clear"
 
 # Edit my SSH hosts config in Sublime
 alias sshosts='subl ~/.ssh/config'
