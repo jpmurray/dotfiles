@@ -12,6 +12,9 @@ alias sshosts='subl ~/.ssh/config'
 alias brewupdate='brew update; brew upgrade; brew cleanup;'
 alias brewoutdated='brew outdated; brew cask outdated'
 alias composerupdate='composer self-update; composer global update'
+alias cu='composer update'
+alias cr="composer require"
+alias cdu="composer dump autoload"
 
 # Directories
 alias repo="cd $HOME/Repositories"
