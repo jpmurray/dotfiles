@@ -9,12 +9,9 @@ alias c="clear"
 # Edit my SSH hosts config in Sublime
 alias sshosts='subl ~/.ssh/config'
 
+# Homebrew
 alias brewupdate='brew update; brew upgrade; brew cleanup;'
 alias brewoutdated='brew outdated; brew cask outdated'
-alias composerupdate='composer self-update; composer global update'
-alias cu='composer update'
-alias cr="composer require"
-alias cdu="composer dump-autoload"
 
 # Directories
 alias repo="cd $HOME/Repositories"
@@ -25,6 +22,13 @@ alias art="php artisan"
 alias artcc='php artisan cache:clear'
 alias fresh="php artisan migrate:fresh --seed"
 alias tinker="php artisan tinker"
+alias dumpserv="php artisan dump-server"
+
+# Composer
+alias cgu='composer self-update; composer global update'
+alias cu='composer update'
+alias cr="composer require"
+alias cdu="composer dump-autoload"
 
 # Wordplate
 alias wordplate="composer create-project wordplate/wordplate"
