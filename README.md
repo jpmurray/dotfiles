@@ -1,20 +1,22 @@
 # My own dotfile install.
 
 ## Installation
+
 ### Step 0 - Before going nuclear on your hard drive
+
 Go through the checklist below to make sure you didn't forget anything before you wipe your hard drive.
 
-- Did you commit and push any changes/branches to your git repositories?
+- Did you commit and push any changes/branches to your git repositories?, especially this one ?
 - Have you backed up any local `.env` files you'd like to keep from your repositories?
 - Did you not forget any important documents in non synched (Cloud Drive, Dropbox, etc.) folders?
 - Did you not forget to export important data from your local database?
 - Did you update mackup to the latest version and ran mackup backup?
+- Did you save a list of appllication from system report, in case something is missing ?
 
 ### Step 1 - Hello world
 
 - Have a new Mac or a clean install;
 - Make the base setup for accounts;
-- Install Little Snitch right away;
 - Turn on disk encryption;
 - Make all the updates: `sudo softwareupdate -i -a && xcode-select --install`;
 
@@ -28,12 +30,7 @@ Go through the checklist below to make sure you didn't forget anything before yo
 - Restore preferences by running `mackup restore`;
 - Check if Homebrew is ok: `brew doctor`;
 - Configure keybase & 1Password;
-- Install other App I can't install automatically because of reasons:
-	- Adobe (Too big)
-	- Antidote (Using an old version)	
-	- Office
-	- Tunnel Brick
-	- Hyper (cask is broken I think)
+- Install other App I can't install automatically because of reasons: Antidote;Office; Tunnel Brick; Hyper (cask is broken I think).
 - Restart computer: `shutdown -r now`;
 
 ### Step 3 - Something's missing?
@@ -51,6 +48,7 @@ Go through the checklist below to make sure you didn't forget anything before yo
 - Party 🎉
 
 ## Updates
+
 To pull the latest changes from the repo and update your setup.
 
 ```
