@@ -30,7 +30,7 @@ Go through the checklist below to make sure you didn't forget anything before yo
 - Restore preferences by running `mackup restore`;
 - Check if Homebrew is ok: `brew doctor`;
 - Configure keybase & 1Password;
-- Install other App I can't install automatically because of reasons: Antidote;Office; Tunnel Brick; Hyper (cask is broken I think).
+- Install other App I can't install automatically because of reasons: Antidote, Office.
 - Restart computer: `shutdown -r now`;
 
 ### Step 3 - Something's missing?
