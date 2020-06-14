@@ -37,3 +37,8 @@ alias wordplate="composer create-project wordplate/wordplate"
 
 # Others
 alias "opn"="subl ."
+
+# Keybase
+decryptPGP() {
+	keybase pgp decrypt -i $1 -o $2
+}
