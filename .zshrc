@@ -31,6 +31,8 @@ source $ZSH/oh-my-zsh.sh
 export LC_ALL=en_CA.UTF-8
 export LANG=en_CA.UTF-8
 
+export COMPOSER_MEMORY_LIMIT=-1
+
 # lambda pure
 autoload -U promptinit; promptinit
 PURE_PROMPT_SYMBOL=λ
