@@ -37,7 +37,7 @@ mv composer.phar /usr/local/bin/composer
 /usr/local/bin/composer global require "hirak/prestissimo"
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel-zero/installer laravel/lumen-installer laravel/valet phpunit/phpunit squizlabs/php_codesniffer friendsofphp/php-cs-fixer phpmd/phpmd localheinz/composer-normalize
+/usr/local/bin/composer global require laravel/installer laravel-zero/installer laravel/valet phpunit/phpunit squizlabs/php_codesniffer friendsofphp/php-cs-fixer phpmd/phpmd
 
 # Install some node global packages
 npm install --global yarn
@@ -58,13 +58,19 @@ cd fonts
 cd ..
 rm -rf fonts
 
-# Create a Sites directory
-# This is a default directory for macOS user accounts but doesn't comes pre-installed
+# Create repositories directory
 mkdir $HOME/Repositories
+mkdir $HOME/Repositories/Perso
+mkdir $HOME/Repositories/Clients
+mkdir $HOME/Repositories/Tools
 
 # Park our repository folder in Valet
-cd $HOME/Repositories
-valet park 
+cd $HOME/Repositories/Perso
+valet park
+cd $HOME/Repositories/Clients
+valet park
+cd $HOME/Repositories/Tools
+valet park
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
@@ -81,7 +87,6 @@ git config --global core.excludesfile $HOME/.dotfiles/.gitignore_global
 cd $HOME/.dotfiles/pure
 ln -s "$PWD/pure.zsh" /usr/local/share/zsh/site-functions/prompt_pure_setup
 ln -s "$PWD/async.zsh" /usr/local/share/zsh/site-functions/async
-
 
 # Set macOS preferences
 # We will run this last because this will reload the shell
