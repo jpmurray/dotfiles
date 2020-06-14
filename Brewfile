@@ -26,6 +26,11 @@ brew 'mysql'
 brew 'redis'
 brew 'zsh-syntax-highlighting'  
 brew 'yarn'
+brew 'jpegoptim'
+brew 'optipng'
+brew 'pngquant'
+brew 'svgo'
+brew 'gifsicle'
 
 # Apps
 cask '1password'
