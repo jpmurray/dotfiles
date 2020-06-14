@@ -1,6 +1,6 @@
 # Taps	
-tap 'caskroom/cask'
-tap 'caskroom/fonts'
+tap 'homebrew/cask-cask'
+tap 'homebrew/cask-fonts'
 tap 'homebrew/bundle'
 
 # Install ZSH
@@ -23,7 +23,7 @@ brew 'youtube-dl'
 
 # Development
 brew 'mackup'
-brew 'php74', args: ['with-openssl']
+brew 'php', args: ['with-openssl']
 brew 'mysql'
 brew 'redis'
 brew 'zsh-syntax-highlighting'  
