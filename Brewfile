@@ -1,7 +1,7 @@
 # Taps	
-tap 'homebrew/cask-cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/bundle'
+tap 'homebrew/cask'
 
 # Install ZSH
 brew 'zsh'
@@ -23,7 +23,7 @@ brew 'youtube-dl'
 
 # Development
 brew 'mackup'
-brew 'php', args: ['with-openssl']
+brew 'php'
 brew 'mysql'
 brew 'redis'
 brew 'zsh-syntax-highlighting'  
@@ -48,8 +48,7 @@ cask 'db-browser-for-sqlite'
 cask 'discord'
 cask 'docker'
 cask 'epubquicklook'
-cask 'etcher'
-cask 'etcher'
+cask 'balenaetcher'
 cask 'firefox'
 cask 'gitkraken'
 cask 'glance'
@@ -61,7 +60,7 @@ cask 'imageoptim'
 cask 'insomnia'
 cask 'keybase'
 cask 'raspberry-pi-imager'
-cask 'sequel-pro-nightly'
+cask 'sequel-pro'
 cask 'shotcut'
 cask 'slack'
 cask 'spotify'
