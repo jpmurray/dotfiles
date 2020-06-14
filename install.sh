@@ -46,18 +46,6 @@ yarn global add jshint csslint sass-lint lesshint
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
 
-# Install Powrline fonts
-pip3 install powerline-status
-# clone fonts repo
-cd $HOME
-git clone https://github.com/powerline/fonts.git --depth=1
-# install
-cd fonts
-./install.sh
-# clean-up a bit
-cd ..
-rm -rf fonts
-
 # Create repositories directory
 mkdir $HOME/Repositories
 mkdir $HOME/Repositories/Perso
