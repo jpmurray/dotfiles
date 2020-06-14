@@ -15,7 +15,7 @@ sudo scutil --set LocalHostName "jpmMbp"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "jpmMbp"
 
 # Save screenshots to the download directory
-defaults write com.apple.screencapture location -string "${HOME}/Downloads"
+defaults write com.apple.screencapture location -string "${HOME}/Documents/Screenshots"
 
 # Add login screen message.
 sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "Vous avez trouvé ce portable? Merci de contacter Jean-Philippe à l'adresse curieuxmurray@gmail.com"
