@@ -8,7 +8,7 @@ alias c="clear"
 alias loadkey="ssh-add -A"
 
 # Edit my SSH hosts config in Sublime
-alias sshosts='subl ~/.ssh/config'
+alias sshosts='code ~/.ssh/config'
 
 # Homebrew
 alias brewupdate='brew update; brew upgrade; brew cleanup;'
@@ -16,6 +16,8 @@ alias brewoutdated='brew outdated; brew cask outdated'
 
 # Directories
 alias repo="cd $HOME/Repositories"
+alias clients="cd $HOME/Repositories/Clients"
+alias perso="cd $HOME/Repositories/Perso"
 alias dotfiles="cd $DOTFILES"
 
 # Laravel
@@ -31,9 +33,6 @@ alias cgu='composer self-update; composer global update'
 alias cu='composer update'
 alias cr="composer require"
 alias cdu="composer dump-autoload"
-
-# Wordplate
-alias wordplate="composer create-project wordplate/wordplate"
 
 # Others
 alias "opn"="subl ."
