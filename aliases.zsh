@@ -18,6 +18,7 @@ alias brewoutdated='brew outdated; brew cask outdated'
 alias repo="cd $HOME/Repositories"
 alias clients="cd $HOME/Repositories/Clients"
 alias perso="cd $HOME/Repositories/Perso"
+alias tools="cd $HOME/Repositories/Tools"
 alias dotfiles="cd $DOTFILES"
 
 # Laravel
