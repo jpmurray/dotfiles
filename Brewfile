@@ -2,6 +2,7 @@
 tap 'homebrew/cask-fonts'
 tap 'homebrew/bundle'
 tap 'homebrew/cask'
+tap 'nicoverbruggen/homebrew-cask'
 
 # Install ZSH
 brew 'zsh'
@@ -59,6 +60,7 @@ cask 'iina'
 cask 'imageoptim'
 cask 'insomnia'
 cask 'keybase'
+cask 'phpmon'
 cask 'raspberry-pi-imager'
 cask 'sequel-pro'
 cask 'shotcut'
