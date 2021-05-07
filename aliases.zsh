@@ -29,7 +29,7 @@ alias tinker="php artisan tinker"
 alias dumpserv="php artisan dump-server"
 alias laratest="phpunit && php artisan dusk"
 newalice() {
-    composer create-project jpmurray/alice $param -s dev --remove-vcs
+    composer create-project jpmurray/alice $1 -s dev --remove-vcs
 }
 
 # Composer
