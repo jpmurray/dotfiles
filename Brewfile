@@ -86,3 +86,4 @@ cask 'webpquicklook'    # preview Webp images
 
 # Fonts
 cask 'font-fira-code'
+cask 'font-jetbrains-mono'
